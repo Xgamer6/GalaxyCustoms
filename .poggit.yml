@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Xgamer6/GalaxyCustoms
+build-by-default: true
+branches:
+- main
+projects:
+  GalaxyCustoms:
+    path: ""
+...
