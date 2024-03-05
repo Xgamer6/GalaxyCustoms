@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace fluffy\FluffyPlugin;
+namespace fluffy\JoinTitle;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
