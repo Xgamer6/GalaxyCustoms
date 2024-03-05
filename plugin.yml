@@ -1,7 +1,7 @@
 ---
-name: FluffyPlugin
-version: 1.0.0
-main: fluffy\FluffyPlugin\Main
+name: CustomJoinTitle
+version: 1.1
+main: fluffy\JoinTitle\Main
 api: 5.11.0
-src-namespace-prefix: fluffy\FluffyPlugin
+src-namespace-prefix: fluffy\JoinTitle
 ...
