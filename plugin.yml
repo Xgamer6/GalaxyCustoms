@@ -1,0 +1,7 @@
+---
+name: FluffyPlugin
+version: 1.0.0
+main: fluffy\FluffyPlugin\Main
+api: 5.11.0
+src-namespace-prefix: fluffy\FluffyPlugin
+...
