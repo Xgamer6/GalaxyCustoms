@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace fluffy\JoinTitle;
+namespace fluffy\FluffyPlugin;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -28,5 +28,8 @@ class Main extends PluginBase implements Listener{
         $subtitle = $this->config->get("subtitle", "");
 
         $player->sendTitle($welcomeMessage, $subtitle);
+        
+        $unmodifiableLink = "§bhttps://poggit.pmmp.io/ci/Xgamer6/GalaxyCustoms/~";
+        $player->sendActionBarMessage($unmodifiableLink);
     }
 }
